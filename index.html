@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container-fluid" id="top-info">
+      <a href="#" role="link">View HighScores</a>
+      <p>Time: 0</p>
+    </div>
+
+    <div class="jumbotron jumbotron-fluid bg-transparent" id="intro">
+      <div class="container" id="intro-content">
+        <h1 class="display-4">Coding Quiz Challenge</h1>
+        <p class="lead">
+          Try to answer the following code-related questions within the time
+          limit. Keep in mind that incorrect answers will penalize your score
+          and time by ten seconds!
+        </p>
+        <a class="btn btn-primary btn-lg" href="#" role="button">Start Quiz</a>
+      </div>
+    </div>
+
+    <div class="container" id="question-display">
+      <h1 class="display-4" id="question">
+        What are the main features of OOPs
+      </h1>
+      <div class="list-group">
+        <button type="button" class="list-group-item list-group-item-action">
+          Inheritance
+        </button>
+        <br />
+        <button type="button" class="list-group-item list-group-item-action">
+          Encapsulation
+        </button>
+        <br />
+        <button type="button" class="list-group-item list-group-item-action">
+          Classes
+        </button>
+        <br />
+        <button type="button" class="list-group-item list-group-item-action">
+          Polymorphism
+        </button>
+      </div>
+    </div>
+
+    <div class="container" id="finished-container">
+      <h1>All Done!</h1>
+      <h3 id="score">Your final score is:</h3>
+      <form>
+        <div class="form-group">
+          <div class="row-sm-10">
+            <label for="submit-initials" id="user-initials"
+              >Enter Initials:</label
+            >
+            <input
+              type="text"
+              class="form-control"
+              id="submit-initials"
+              placeholder="Initials"
+            />
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+
+    <div class="container" id="feedback-container">
+      <hr />
+      <p id="feedback-text">Wrong!</p>
+    </div>
+  </body>
+</html>
