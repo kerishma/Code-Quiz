@@ -15,9 +15,8 @@
   <body>
     <div class="container-fluid" id="top-info">
       <a href="#" role="link">View HighScores</a>
-      <p>Time: 0</p>
+      <p id="timer">Time: 0</p>
     </div>
-
     <div class="jumbotron jumbotron-fluid bg-transparent" id="intro">
       <div class="container" id="intro-content">
         <h1 class="display-4">Coding Quiz Challenge</h1>
@@ -26,31 +25,23 @@
           limit. Keep in mind that incorrect answers will penalize your score
           and time by ten seconds!
         </p>
-        <a class="btn btn-primary btn-lg" href="#" role="button">Start Quiz</a>
+        <button
+          type="button"
+          class="btn btn-primary btn-lg"
+          onclick="setupQuiz()"
+        >
+          Start Quiz
+        </button>
       </div>
     </div>
 
-    <div class="container" id="question-display">
-      <h1 class="display-4" id="question">
-        What are the main features of OOPs
-      </h1>
-      <div class="list-group">
-        <button type="button" class="list-group-item list-group-item-action">
-          Inheritance
-        </button>
-        <br />
-        <button type="button" class="list-group-item list-group-item-action">
-          Encapsulation
-        </button>
-        <br />
-        <button type="button" class="list-group-item list-group-item-action">
-          Classes
-        </button>
-        <br />
-        <button type="button" class="list-group-item list-group-item-action">
-          Polymorphism
-        </button>
-      </div>
+    <div class="container" id="questions-container">
+      <div class="container" id="question-display-one"></div>
+      <div class="container" id="question-display-two"></div>
+      <br />
+      <button type="button" class="btn btn-primary btn-lg" id="next">
+        Next
+      </button>
     </div>
 
     <div class="container" id="finished-container">
@@ -78,5 +69,6 @@
       <hr />
       <p id="feedback-text">Wrong!</p>
     </div>
+    <script src="./script.js"></script>
   </body>
 </html>
