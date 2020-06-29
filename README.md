@@ -91,3 +91,20 @@ Technical
 ## normal timer, count down from XX (ref: tomato example)
 ## onclick (for questions and button)
 ## counter (for tracking correct and summing total)
+
+## Technologies was used
+* HTML 
+* CSS
+* JavaScript 
+
+## Deployed link
+
+
+
+
+### Screenshot 
+
+
+
+## Owner
+Kerishma Tarin
