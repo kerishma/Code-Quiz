@@ -35,12 +35,8 @@ THEN I can save my initials and score
 ## Deployed link
 https://kerishma.github.io/Code-Quiz/
 
-
-
-
-### Screenshot 
-
-
+### Gif Demo 
+![code Quiz Demo](https://github.com/kerishma/Code-Quiz/blob/master/Quiz%20Challenge.gif)
 
 ## Owner
 Kerishma Tarin
